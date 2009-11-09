@@ -1,0 +1,6 @@
+#!/bin/rc
+./8.out
+<[4] /mnt/bt/clone {
+	d = /mnt/bt/ ^ `{cat /fd/4}
+	cp torrents/gentoo.torrent $d/metainfo
+}
